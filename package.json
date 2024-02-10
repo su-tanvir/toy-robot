@@ -1,0 +1,15 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "Simulation of a toy robot moving on a square tabletop",
+  "author": "Tanvir Hossain",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js < std.input.txt > std.output.txt"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
